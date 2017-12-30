@@ -38,6 +38,7 @@ gem 'magnific-popup-rails', '~> 1.1.0'
 gem "jquery-slick-rails"
 gem 'wow-rails'
 
+
 group :development, :test do
   gem 'sqlite3'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
