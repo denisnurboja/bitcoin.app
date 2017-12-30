@@ -26,11 +26,14 @@
 :: 15.0 Verticle Scrollbar
 -------------------------- */
 
-@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,700|Montserrat:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Work+Sans:400,500');
 @import "bootstrap";
+@import "animate";
+@import "magnific-popup";
+@import "owl-carousel";
+@import 'slick';
+@import "responsive";
 @import "font-awesome";
-
-
 
 
 
@@ -44,7 +47,7 @@
 }
 
 body {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Roboto Slab', serif;
     background-color: #fff;
 }
 
@@ -54,7 +57,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Cabin', sans-serif;
+   
+   font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     color: #000;
     line-height: 1.2;
@@ -434,7 +438,7 @@ p {
 -------------------------- */
 
 .wellcome_area {
-    background-image: url(image-path("bg-img/welcome-bg.png"));
+    background-image: image-url("bg-img/welcome-bg.png");
     height: 900px;
     position: relative;
     z-index: 1;
@@ -536,7 +540,7 @@ p {
 }
 
 .wellcome-heading > h3 {
-    font-size: 332px;
+    font-size: 288px;
     position: absolute;
     top: -134px;
     font-weight: 900;
@@ -751,9 +755,7 @@ p {
     background-color: #a865e1;
     color: #fff;
 }
-.video-background{
-    background-image: url(image-path("bg-img/video.jpg"));
-}
+
 /* --------------------------
 :: 7.0 Cool Facts Area CSS
 -------------------------- */
@@ -1333,4 +1335,6 @@ p {
 ::-webkit-scrollbar-thumb:window-inactive {
 	background: rgba(255,0,0,0.4); 
 }
-
+.video-background{
+    background-image: image-url("bg-img/video.jpg");
+}

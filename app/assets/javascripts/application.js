@@ -10,12 +10,21 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-
-//= require jquery-2.2.4.min
-//= require jquery_ujs
+//= require jquery3
 //= require popper
-//= require bootstrap-sprockets
-//= require rails-ujs
-//= require turbolinks
-//= require_tree .
+//= require bootstrap
+
+//= require counter-up
+//= require jquery-easing
+//= require owl-carousel
+//= require onepage-nav
+//= require magnific-popup
+//= require scroll-up
+//= require waypoints
+//= require wow
+//= require jquery.slick
+//= require footer-reveal
+
+//= require active
+
 

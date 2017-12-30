@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
 
     <!-- Title -->
     <title>Bit.app The Best BitCoin Broker</title>
@@ -14,13 +14,15 @@
     <link rel="icon" href="core-img/favicon.ico">
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    
     <%= csrf_meta_tags %>
   </head>
 
   <body>
   <%= render 'layouts/navigation' %>
     <%= yield %>
+
   <%= render 'layouts/footer' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </body>
 </html>
