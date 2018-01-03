@@ -13,16 +13,22 @@
     <!-- Favicon -->
     <%= favicon_link_tag 'core-img/favicon.ico' %>
     
+    <!-- Stylesheets -->
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     
     <%= csrf_meta_tags %>
   </head>
 
   <body>
-  <%= render 'layouts/navigation' %>
-    <%= yield %>
+    <!-- Menu Partials -->
+    <%= render 'layouts/navigation' %>
+    
+     <%= yield %>
+    
+    <!-- Footer Partials -->
+    <%= render 'layouts/footer' %>
 
-  <%= render 'layouts/footer' %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <!-- Javascripts -->
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </body>
 </html>

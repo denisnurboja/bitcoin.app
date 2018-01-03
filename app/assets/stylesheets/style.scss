@@ -1,5 +1,5 @@
 /* --------------------------
-:: Template Name: devdap App - App Landing Page 
+:: Template Name: devdap App - Bit.app Landing Page 
 :: Template Author: devdap
 :: Template Author URI: https://devdap.com/
 :: Description: devdap is a One Page based Ruby On Rails Bit Coin app Landing Template. It's very clean, creative & beautiful. It's super responsive & ultra light.
@@ -757,6 +757,9 @@ p {
     color: #fff;
 }
 
+.video-background{
+    background-image: image-url("bg-img/video.jpg");
+}
 /* --------------------------
 :: 7.0 Cool Facts Area CSS
 -------------------------- */
@@ -1336,6 +1339,4 @@ p {
 ::-webkit-scrollbar-thumb:window-inactive {
 	background: rgba(255,0,0,0.4); 
 }
-.video-background{
-    background-image: image-url("bg-img/video.jpg");
-}
+

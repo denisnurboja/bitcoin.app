@@ -23,7 +23,8 @@ gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
-# Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
+
+# Use font-awesomes for icons
 gem "font-awesome-rails"
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -35,6 +36,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'magnific-popup-rails', '~> 1.1.0'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+# Use Jquery Slick for the slick slider
 gem "jquery-slick-rails"
 gem 'wow-rails'
 
@@ -48,6 +51,7 @@ group :development, :test do
   gem 'selenium-webdriver'
 end
 group :production do
+# Use Pg and rails_12factor for Heroku Deployment
 gem 'pg'
 gem 'rails_12factor'
 end
