@@ -1,24 +1,2 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Free Bitcoin Cryptocurrency Site in Ruby On Rails
+![bit-app](https://user-images.githubusercontent.com/35004804/34486001-5887f7aa-efef-11e7-85ae-cb0108b04161.png)
