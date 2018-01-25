@@ -17,8 +17,6 @@
 * Font Awesome 
 * Responsive
 
-See a working example at [Top Free Ruby On Rails with Bootstrap 4 Website Templates 2018](http://www.devdap.com/free-rubyonrails-templates).
-
 ## Requirements
 
 Make sure all dependencies have been installed before moving on:
